@@ -10,10 +10,10 @@ export default () => {
     <div>
       <StylesProvider>
         <BrowserRouter>
-          <switch>
+          <Switch>
             <Route exact path="/pricing" component={Pricing} />
             <Route path="/" component={Landing} />
-          </switch>
+          </Switch>
         </BrowserRouter>
       </StylesProvider>
     </div>
